@@ -47,7 +47,6 @@ other Chromium-based browser.
 - Unzip it somewhere you won't accidentally delete (e.g. a `Tools` folder).
   You should end up with a folder containing `manifest.json`, `content.js`, etc.
 
-*(Or, if you use git: `git clone` this repo.)*
 
 ### Step 2 — Open the extensions page
 
