@@ -4,9 +4,9 @@
 
 **Export all your tweets and replies from X (Twitter) to a single JSON file, and download videos with one click. Free, open-source, runs entirely in your browser — nothing is uploaded anywhere.**
 
-> I built this because the only existing tool for exporting tweets hid behind a
-> paywall and capped you at 250 tweets. That's silly for something this simple.
-> So here it is, MIT-licensed. Take it, fork it, do whatever.
+I built this because the only existing tool for exporting tweets hid behind a
+paywall and capped you at 250 tweets. That's silly for something this simple.
+So here it is, MIT-licensed. Take it, fork it, do whatever.
 
 *(Русская версия ниже — [перейти](#x-tweet-saver-русский).)*
 
