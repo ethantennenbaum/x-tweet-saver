@@ -74,7 +74,7 @@ other Chromium-based browser.
 ## How to use
 
 ### Export tweets
-1. Go to a profile, e.g. `https://x.com/itan_tennenbaum`.
+1. Go to a profile, e.g. `https://x.com/X`.
    For replies too, open the profile's **With replies** tab.
 2. Click the **extension icon** in the toolbar — a small panel appears on the right.
 3. Click **Старт / Start**. It auto-scrolls and collects; the counter goes up.
@@ -128,10 +128,10 @@ Permissions are deliberately minimal: `activeTab` plus host access to
 
 **Выгрузка всех твитов и реплаев из X (Twitter) в один JSON-файл и скачивание видео в один клик. Бесплатно, открытый код, всё работает локально в браузере — никуда ничего не отправляется.**
 
-> Я сделал это, потому что единственный существующий инструмент для экспорта
-> твитов прятался за пейволлом и ограничивал 250 твитами. Для такой простой
-> задачи это ерунда. Так что вот, под лицензией MIT. Берите, форкайте, делайте
-> что хотите.
+Я сделал это, потому что единственный существующий инструмент для экспорта
+твитов прятался за пейволлом и ограничивал 250 твитами. Для такой простой
+задачи это ерунда. Так что вот, под лицензией MIT. Берите, форкайте, делайте
+что хотите.
 
 ---
 
@@ -158,7 +158,7 @@ Permissions are deliberately minimal: `activeTab` plus host access to
 
 ## Установка
 
-Аддона нет в Chrome Web Store — он ставится вручную («распакованным»). Это
+Аддона нет в Chrome Web Store — он ставится вручную ("распакованным"). Это
 занимает пару минут и работает в **Chrome, Edge, Brave, Arc, Opera** и любом
 другом браузере на движке Chromium.
 
