@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "X Tweet Saver",
+  "version": "1.1.0",
+  "description": "Export all tweets & replies from an X/Twitter profile to JSON, and download videos with one click. Runs entirely locally.",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://twitter.com/*",
+    "https://x.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    },
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "js": ["interceptor.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "action": {
+    "default_title": "X Tweet Saver — show/hide panel"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
